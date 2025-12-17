@@ -1,7 +1,7 @@
 {
   "content": {
     "about_title": "Our Esteemed Legacy",
-    "about_text": "<p>NOT MALFIN is built on a foundation of classic design principles and unwavering performance.</p>",
+    "about_text": "<p>NOT MALFIN is built on a foundation of classic design principles and unwavering performance. We specialize in creating digital platforms that are not just modern, but timeless.</p>",
     "about_image": "assets/images/business.jpg",
     "services": [
       {
@@ -10,11 +10,11 @@
       },
       {
         "title": "Sophisticated Branding",
-        "description": "Logo design and complete visual identity."
+        "description": "Logo design, style guides, and complete visual identity."
       },
       {
         "title": "SEO & Performance Optimization",
-        "description": "Lighthouse score optimization and CDN."
+        "description": "Lighthouse score optimization, minification, and CDN."
       }
     ],
     "portfolio": [
@@ -34,6 +34,7 @@
         "title": "Project 4",
         "image": "assets/images/port4.jpg"
       }
-    ]
+    ],
+    "logo_path": "assets/images/Logo.jpg"
   }
 }
