@@ -1,0 +1,20 @@
+{
+    "content": {
+        "about_title": "Our Esteemed Legacy",
+        "about_text": "<p>NOT MALFIN is built on a foundation of classic design principles and unwavering performance. We specialize in creating digital platforms that are not just modern, but timeless. Our approach integrates rigorous SEO standards, sophisticated user experience (UX), and high-availability architecture.</p><p>We focus on quality over quantity, ensuring every project, from simple portfolio sites to complex dynamic systems, carries the mark of premium craftsmanship.</p>",
+        "services": [
+            {
+                "title": "Bespoke Web Engineering",
+                "description": "Custom, high-performance static and dynamic website development."
+            },
+            {
+                "title": "Sophisticated Branding",
+                "description": "Logo design, style guides, and complete visual identity packages."
+            },
+            {
+                "title": "SEO & Performance Optimization",
+                "description": "Lighthouse score optimization, minification, and CDN implementation."
+            }
+        ]
+    }
+}
