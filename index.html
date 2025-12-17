@@ -2,187 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>NOT MALFIN - Premium Digital Solutions | PWA Ready</title>
-    
-    <meta name="description" content="NOT MALFIN offers premium, classic digital solutions with a focus on quality, design, and performance.">
-    <meta name="keywords" content="digital solutions, web development, graphic design, premium, classic, SEO, PWA">
-
-    <meta property="og:title" content="NOT MALFIN | Premium Digital Solutions">
-    <meta property="og:description" content="High-end web development with a classic, sophisticated aesthetic.">
-    <meta property="og:image" content="https://your-site.com/assets/images/share-preview.jpg"> 
-    <meta property="og:url" content="https://your-site.com">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-..." crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-
-    <link rel="stylesheet" href="assets/css/style.css">
-    
-    <link rel="manifest" href="/manifest.json">
-    <link rel="apple-touch-icon" href="assets/images/icon-192.png">
-
+    <meta name="description" content="NOT MALFIN - Premium Digital Solutions and Bespoke Web Engineering">
+    <title>NOT MALFIN | Premium Digital Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-
-<body class="light-theme">
-    
-    <div id="preloader" class="preloader">
-        <div class="spinner"></div>
-    </div>
-    
-    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light theme">
-        <i class="fas fa-moon"></i>
-    </button>
-    
-    <header class="main-header">
-        <nav class="main-nav">
-            <a href="#home">
-                <img src="assets/images/Logo.jpg" alt="NOT MALFIN Logo" class="header-logo">
-            </a>
-            <h1 class="logo-title">NOT MALFIN</h1>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img id="site-logo" src="" alt="NOT MALFIN Logo">
+            </div>
             <ul class="nav-links">
-                <li><a href="#about" class="smooth-transition">About</a></li>
-                <li><a href="#services" class="smooth-transition">Services</a></li>
-                <li><a href="#portfolio" class="smooth-transition">Portfolio</a></li>
-                <li><a href="#contact" class="smooth-transition">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact" class="contact-btn">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="home" class="hero-section video-bg-container" data-aos="fade">
-        <video autoplay muted loop id="video-bg">
-            <source src="assets/media/background-video.mp4" type="video/mp4">
-        </video>
-        <div class="hero-content">
-            <h2 class="typing-text" data-text="A Legacy in Digital Solutions.">A Legacy in Digital Solutions.</h2>
-            <p>Crafting sophisticated online presences with unmatched performance.</p>
-        </div>
-    </section>
-
-    <main class="main-content">
-        
-        <section id="about" class="content-section" data-aos="fade-up" data-aos-delay="100">
-            <div class="glass-card parallax-effect" data-speed="0.8">
-                <h2 data-i18n="about_title">About Us</h2>
-                <div class="about-grid">
-                    <img data-src="assets/images/business.jpg" 
-                         srcset="assets/images/business-small.jpg 480w, assets/images/business.jpg 800w" 
-                         sizes="(max-width: 600px) 480px, 800px" 
-                         alt="Business sophistication" 
-                         class="img-reveal lazy">
-                    <div id="about-text" data-i18n="about_text">
-                        <p>
-                            NOT MALFIN is built on a foundation of **classic design principles** and unwavering 
-                            focus on performance. We don't chase fleeting trends; we engineer digital platforms 
-                            that are not just modern, but **timeless**.
-                        </p>
-                        <p>
-                            Our approach integrates rigorous **SEO standards**, sophisticated user experience 
-                            (UX), and high-availability architecture. We focus on quality over quantity, 
-                            ensuring every project, from simple portfolio sites to complex dynamic systems, 
-                            carries the mark of **premium craftsmanship**.
-                        </p>
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2 id="about-title">Loading...</h2>
+                <div id="about-content" class="about-grid">
                     </div>
-                </div>
             </div>
         </section>
 
-        <section id="services" class="content-section" data-aos="fade-up">
-            <h2 class="section-title">Our Services</h2>
-            
-            <div id="services-grid" class="services-grid">
-                
-                <div class="glass-card service-card">
-                    <h3>Bespoke Web Engineering</h3>
-                    <p>Custom, high-performance static and dynamic website development.</p>
-                </div>
-
-                <div class="glass-card service-card">
-                    <h3>Sophisticated Branding</h3>
-                    <p>Logo design, style guides, and complete visual identity packages.</p>
-                </div>
-
-                <div class="glass-card service-card">
-                    <h3>SEO & Performance Optimization</h3>
-                    <p>Lighthouse score optimization, minification, and CDN implementation.</p>
-                </div>
-                
-                <div class="glass-card service-card">
-                    <h3>Maintenance & Support</h3>
-                    <p>Ongoing updates, security monitoring, and reliable technical support.</p>
-                </div>
-                
-            </div>
-        </section>
-        
-        <section id="portfolio" class="content-section" data-aos="fade-up">
-            <h2 class="section-title">Our Portfolio</h2>
-            <div id="portfolio-masonry" class="masonry-grid">
-                <img data-src="assets/images/port1.jpg" alt="Project 1" class="lazy">
-                <img data-src="assets/images/port2.jpg" alt="Project 2" class="lazy">
-                <img data-src="assets/images/port3.jpg" alt="Project 3" class="lazy">
-                <img data-src="assets/images/port4.jpg" alt="Project 4" class="lazy">
+        <section id="services" class="section">
+            <div class="container">
+                <h2>Our Specialized Services</h2>
+                <div id="services-container" class="services-grid">
+                    </div>
             </div>
         </section>
 
-        <section class="stats-section" data-aos="fade-up">
-            <div class="stats-container">
-                <div class="stat-item">
-                    <span class="counter" data-target="98">0</span>%
-                    <p>Client Satisfaction</p>
-                </div>
-                <div class="stat-item">
-                    <span class="counter" data-target="150">0</span>+
-                    <p>Projects Completed</p>
-                </div>
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2>Our Portfolio</h2>
+                <p class="subtitle">A legacy of performance and design.</p>
+                <div id="portfolio-container" class="portfolio-grid">
+                    </div>
             </div>
         </section>
-
-        <section id="contact" class="content-section" data-aos="fade-up">
-            <div class="glass-card">
-                <h2>Contact Our Team</h2>
-                <form id="contact-form" class="contact-form">
-                    <div id="form-messages"></div>
-                    <input type="text" name="user_name" placeholder="Full Name (Validation)" required>
-                    <input type="email" name="user_email" placeholder="Email Address (Validation)" required>
-                    <textarea name="message" placeholder="Your Inquiry (Validation)" required></textarea>
-                    
-                    <button type="submit" class="neumorphism-button ripple-effect">Send Message</button>
-                </form>
-            </div>
-        </section>
-
-        <div id="privacy-modal" class="modal">
-            <div class="modal-content">
-                <span class="close-button">&times;</span>
-                <h3>Privacy Policy</h3>
-                <p>We respect your privacy. Read our full policy here.</p>
-            </div>
-        </div>
-        
-        <div id="cookie-banner" class="cookie-banner">
-            <p>We use cookies to enhance your experience. <a href="#" id="privacy-link">Learn More</a></p>
-            <button id="accept-cookies" class="neumorphism-button">Accept</button>
-        </div>
-
     </main>
 
-    <footer class="main-footer">
-        <p>&copy; 2025 NOT MALFIN. A legacy in digital solutions. | <a href="#" id="privacy-link-footer">Privacy</a></p>
+    <footer>
+        <p>&copy; 2025 NOT MALFIN. All rights reserved.</p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    
-    <script src="assets/js/script.js"></script>
-    
-    <script>
-        AOS.init({
-            duration: 1200, // global duration
-            once: true, // animation once
-        });
-    </script>
-
+    <script src="script.js"></script>
 </body>
 </html>
